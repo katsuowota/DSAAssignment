@@ -1,0 +1,461 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+   <head>
+      <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+      <title>
+         DSA Assignment Specification 2015-16
+      </title>
+      <style type="text/css">
+         .center {
+         text-align: center;
+         }
+         table {
+         border-collapse: collapse;
+         margin: 0;
+         padding: 1em 0;
+         }
+         td, th {
+         border: solid 1px black;
+         } 
+         h1, h2, h3, h4, h5, h6 {
+         /* Always use a font stack, even with custom web fonts! */
+         font-family: CurlzMTRegular, Helvetica, Arial, sans-serif;
+         color:brown;
+         }
+         body {
+         font-family: Tahoma, Verdana, Geneva, sans-serif;
+         font-size: 0.9em;
+         }
+         .align_middle {
+         vertical-align: middle;
+         }
+         .code_echo {
+         font-family: "Courier New", Courier, monospace;
+         font-size: 90%;
+         }
+         .red_font {
+         color: #FF0000;
+         }
+         .blue_font {
+         color: #0066FF;
+         }
+         .hg {
+         font-family: "Courier New", Courier, monospace;
+         border: 2px solid red;
+         padding: 4px;
+         font-weight: bold;
+         }                                                      
+         .style1 {
+         margin-left: 40px;
+         }
+         td {
+         padding-left:6px
+         }
+         .auto-style1 {
+         text-align: center;
+         font-size: large;
+         }
+         .auto-style2 {
+         font-size: large;
+         }
+         h1, h2, h3, h4, h5, h6 {
+         font-family: CurlzMTRegular, Helvetica, Arial, sans-serif;
+         color:brown;
+         }
+         h3 {
+         color: #666600;
+         font-size: 1.6em;
+         }
+         h4 {
+         color:green;
+         font-size: 1.4em;
+         }
+         h5 {
+         font-size: 1.2em;
+         }
+         body {
+         font-family: Tahoma, Verdana, Geneva, sans-serif;
+         font-size: 0.9em;
+         }
+         .align_middle {
+         vertical-align: middle;
+         }
+         .code_echo {
+         font-family: "Courier New", Courier, monospace;
+         font-size: 90%;
+         }
+         .red_font {
+         color: #FF0000;
+         }
+         .blue_font {
+         color: #0066FF;
+         }
+         .code_echo {
+         font-family: "Courier New", Courier, monospace;
+         }
+         hr {
+         border: 0;
+         height: 1px;
+         background: #333;
+         background-image: linear-gradient(to right, #ccc, #333, #ccc);
+         }
+         /* ul {
+         list-style: none url(http://www.cems.uwe.ac.uk/~p-chatterjee/images/list_icon_blue.png);
+         } */
+      </style>
+   </head>
+   <body>
+      <p>
+         <img alt="" src="http://www.cems.uwe.ac.uk/~p-chatterjee/images/uwe-logo.gif" /><br>
+      </p>
+      <p class="auto-style1">
+         <strong>MODULAR PROGRAMME</strong>
+      </p>
+      <p class="center">
+         <strong><span class="auto-style2">COURSEWORK ASSESSMENT SPECIFICATION</span></strong>&nbsp;
+      </p>
+      <p>
+         <strong>Module Details</strong>
+      </p>
+      <table width="100%">
+         <tbody>
+            <tr>
+               <td width="25%">
+                  <p>
+                     Module Code<br>
+                     UFCFV4-30-2
+                  </p>
+               </td>
+               <td width="25%">
+                  <p>
+                     Run<br>
+                     15SEP/1
+                  </p>
+               </td>
+               <td width="50%">
+                  <p>
+                     Module Title<br>
+                     Data, Shemas &amp; Applications
+                  </p>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <p>
+                     Module Leader<br>
+                     Prakash Chatterjee
+                     / Glyn Watkins
+                  </p>
+               </td>
+               <td>
+                  <p>
+                     Module Coordinator<br>
+                  </p>
+               </td>
+               <td>
+                  <p>
+                     Module Tutors<br>
+                     Steve Battle, Prakash Chatterjee, Glyn Watkins
+                  </p>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="2">
+                  <p>
+                     Component and Element Number<br>
+                     B: CW2
+                  </p>
+               </td>
+               <td>
+                  <p>
+                     Weighting: (% of the Module's assessment)<br>
+                     40%
+                  </p>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="2">
+                  <p>
+                     Element Description<br>
+                     Data modelling, integration and presentation task with 
+                     group and individual components
+                  </p>
+               </td>
+               <td>
+                  <p>
+                     24 hours<br>
+                  </p>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      <p>
+         <strong>Dates</strong>
+      </p>
+      <table width="100%">
+         <tbody>
+            <tr>
+               <td>
+                  <p>
+                     Date Issued to Students<br>
+                     06/11/2015<br>
+                     &nbsp;
+                  </p>
+               </td>
+               <td>
+                  <p>
+                     Date to be Returned to Students<br>
+                     4 working weeks after hand-in<br>
+                     &nbsp;
+                  </p>
+               </td>
+            </tr>
+            <tr>
+               <td rowspan="2">
+                  <p>
+                     Submission Place<br>
+                     Blackboard
+                  </p>
+                  <p>
+                     &nbsp;
+                  </p>
+               </td>
+               <td>
+                  <p>
+                     Submission Date<br>
+                     10/03/2016
+                  </p>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <p>
+                     Submission Time<br>
+                     2.00 pm
+                  </p>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      <p>
+         <strong>Deliverables</strong>
+      </p>
+      <table width="100%">
+         <tbody>
+            <tr>
+               <td>
+                  <p>
+                     As instructed.<br>
+                     &nbsp;<br>
+                     &nbsp;<br>
+                     &nbsp;<br>
+                     &nbsp;<br>
+                     &nbsp;
+                  </p>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      <p>
+         <strong>Module Leader Signature</strong>
+      </p>
+      <table width="100%">
+         <tbody>
+            <tr>
+               <td>
+                  <p><img src="http://www.cems.uwe.ac.uk/~p-chatterjee/images/sig.gif"></p>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      <p>
+         <br>
+      </p>
+      <hr>
+      <h2>UFCFV4-30-2 Data, Schemas &amp; Applications 2015/16</h2>
+      <h3>CourseWork Specification: Twin Towns and Sister Cities</h3>
+      <p>This is a group assignment with a individual component. Marks are allocated at 70% for the group component and 30% for the individual component.</p>
+      <hr />
+      <h4>Learning Objectives:</h4>
+      <ul>
+         <li>Using Web based services and API's to process data;</li>
+         <li>Designing, processing and generating XML files;</li>
+         <li>Linking software components with function calls and HTTP GET &amp; POST;</li>
+         <li>Understanding and using HTML5, RSS and other XML vocabularies (XSLT, XSD);</li>
+         <li>Understanding and using JSON and JavaScript;</li>
+         <li>Creating two XML meta-data files and validating them against supplied Schemas;</li>
+         <li>Integrating information from other scripts into a single HTML page;</li>
+         <li>Planning, designing and implementing a Software Project;</li>
+         <li>Experiencing team based software construction.</li>
+      </ul>
+      <h4>Overview:</h4>
+      <p>Twin towns or sister cities are a form of legal and social agreement between towns [and] cities ...  in geographically and politically distinct areas to promote cultural and commercial ties. The modern concept of town twinning, conceived after the Second World War in 1947, was intended to foster friendship and understanding between different cultures and between former foes as an act of peace and reconciliation and to encourage trade and tourism. In recent times, town twinning has increasingly been used to form strategic international business links between member cities.<sup>[1]</sup></p>
+      <p>Many (most) towns &amp; cities in the UK are twinned with others in Europe &amp; around the world. Wikipedia provides a <a href="https://en.wikipedia.org/wiki/List_of_twin_towns_and_sister_cities_in_the_United_Kingdom">list of these twinned towns/cities</a>.<sup>[2]</sup>.</p>
+      <h4>The Application:</h4>
+      <p>Working in groups of three to four students, your task in this assignment is to build a data driven web application that makes use of external API's and local data storage to encourage interest in twinning. </p>
+      <p>Your application will show information about your chosen town or city and at least one of its twins.</p>
+      <h4>Tasks:</h4>
+      <h5>A. Group Tasks (70 marks)</h5>
+      <p><strong>1. Database Design and Implementation (20 marks):</strong></p>
+      <p>i) <strong>Conceptual ER model</strong>: There is a host of data items associated with each town or city. Design a conceptual ER model to hold data about individual towns and cities (name, country, population, geo-location, woeid, currency etc.) as well as places of interest in those towns/cities like stadiums, cinemas, concert halls, universities, cathedrals, railway &amp; bus stations, airports etc. (name, type, capacity, geo-location, photos etc.).</p>
+      <p>Deliverable: Conceptual ER model (Entities, Attributes, Relationships) with sufficient attributes (at least 8 for a city/town and 8 for places of interest in those cities/towns). (8 marks)</p>
+      <p>ii) <strong>Logical ER model</strong>: Transform the above model resolving any many-to-many relationships into a low-level (relational) model showing all Primary and Foreign Keys as well as all attribute types with their ranges/lengths.</p>
+      <p>Deliverable: Logical (low-level) ER Model. (8 marks)</p>
+      <p>iii) <strong>Database Implementation</strong>: Implement &amp; populate the database on the UWE/CEMS MySQL server.</p>
+      <p>Deliverable: Database Schema (create table + constraints statements) + Data (select * from all tables). (4 marks)</p>
+      <p><strong>2. Use and integration of external API's (20 marks):</strong></p>
+      <p>i) <strong>Mapping</strong>: Use a mapping API to display (at least two) maps showing the towns/cities you have selected.</p>
+      <p>Note that 6(+) places of interest should be shown on each map using appropriate icons. MouseOver on the icons should show (some) data drawn from your dataset. MouseClick on icons should load another page showing details (photos, description etc.) of a specific point of interest drawn from Wikipedia or other external resource or your own database.</p>
+      <p>Deliverable: Maps of towns/cities with icons showing places of interest and their details.(12 marks)</p>
+      <p>ii) <strong>Weather</strong>: Use a weather API to generate a display of the current and forecast weather for the your selected town/city and its twins. </p>
+      <p>Deliverable: Display current and forecast weather data. (8 marks) </p>
+      <p><strong>3. XML Configuration File &amp; Schema (10 marks):</strong></p>
+      <p>i) Design &amp; construct a XML file holding application-wide data such the 
+         as paths to API's used, API keys (if used), database and other configuration data.&nbsp; (5 marks)
+      </p>
+      <p>ii) Design and construct a XML Schema (XSD) file to validate the configuration file. (5 marks) </p>
+      <p>Deliverable: A XML configuration file and a XML schema file. (10 marks)</p>
+      <p><strong>4. RSS feed (5 marks):</strong></p>
+      <p>Generate a RSS feed of the dataset held in your MySQL DB. </p>
+      <p>Deliverable: A working &amp; demonstrated RSS feed. (5 marks)</p>
+      <p><strong>5. Group metadata file Construction (5 marks):</strong></p>
+      <p>Author a group XML metadata file that is validated against the supplied schema.</p>
+      <p>Deliverable: A schema valid XML metadata file. (5 marks)</p>
+      <p><strong>6. Design and Code Review/Walkthrough (10 marks):</strong></p>
+      <p>A 10-15 minute walkthorugh of the design and coding of the application. Marks are allocated as part of the assessment process.</p>
+      <h5>B. Individual Tasks (30 marks)</h5>
+      <p><strong>1. Refactor/Extend the Application (24 marks)</strong></p>
+      <p>Each student in the group will select (<strong>exclusively</strong>) one of the following tasks. All tasks carry the same (24) marks.</p>
+      <p>You will be expected to demonstrate your chosen task in the assessment walkthrough.</p>
+      <ul>
+         <li>
+            <strong>Design &amp; Build a Test Framework</strong>
+            <ul>
+               <li>Use of <a href="https://phpunit.de/">PHPUnit</a>, <a href="http://jsfiddle.net/">JSFiddle</a> and (possibly) other test frameworks. All HTML output should be validated against the W3C Validation Service. To achieve maximum marks you may also want to explore the <a href="http://www.w3.org/WAI/intro/wcag">W3C's WCAG 2.0</a> standards (A, AA, AAA).</li>
+            </ul>
+         </li>
+         <br />
+         <li>
+            <strong>Refactor the data set using XML and XML-Schema</strong>
+            <ul>
+               <li>All data in the database refactored to XML documents using consistent naming conventions (for the entities and attributes) and appropriate XSD schema design for each instance document. You should demonstrate that your XML is valid against these schemas during your presentation (using oXygen). To achieve maximum marks you might want to analyse and explore how XSLT 
+                  could be applied to generate the required functionality of the site.
+               </li>
+            </ul>
+         </li>
+         <br />
+         <li>
+            <strong>Build and integrate a comments widget using local data &amp; the Twitter API</strong>
+            <ul>
+               <li>User comments should be stored to the local DB and integrated with Twitter. You should not only pull &amp; display tweets using the obvious hash-tags (#nameofyourcity #noteableplaces etc.) but also pull tweets that have the expression &quot;Your City or Town&quot; in the body of the tweet. To achieve maximum marks you may also want to analyse/prototype a caching mechanism for previously pulled tweets. Or even Content Analysis of the tweets.</li>
+            </ul>
+         </li>
+         <br />
+         <li>
+            <strong>Build and integrate a photo widget</strong>
+            <ul>
+               <li>Use the <a href="https://www.flickr.com/services/api/">Flickr API</a> or the <a href="https://developers.pinterest.com/">Pinterest API</a> (or possibly both) to grab photos relevant to your twinned cities/towns and integrate the component with the main application. To achieve maximum marks you may also want to analyse/prototype a caching mechanism for previously pulled images.</li>
+            </ul>
+         </li>
+         <br />
+         <li>
+            <strong>Document the code and the system</strong>
+            <ul>
+               <li>Technical documentation (code, functions, configuration, database, administration etc.) is the priority here. To achieve maximum marks you may also want to analyse/explore tools such as <a href="http://www.phpdoc.org/">PHPDocumentor</a> or some of the other open-source <a href="http://www.smashingmagazine.com/2009/01/50-extremely-useful-php-tools/">debugging/documentation tools</a>.</li>
+            </ul>
+         </li>
+         <br />
+         <li>
+            <strong>Refactor the data and map it to a NoSQL database</strong>
+            <ul>
+               <li>You will need to demonstrate a working NoSQL database and queries on either your UWE/CEMS web-space or on your own hardware(laptop/tablet). To achieve maximum marks you will need to explore how the site would make use of the data and the advantages gained in holding data in this structure and format.</li>
+            </ul>
+         </li>
+         <br />
+         <li>
+            <strong>Refactor the application to a (micro) PHP framework</strong>
+            <ul>
+               <li>&nbsp;A microframework is a minimalistic web application framework. You can see a list of eighteen such 
+                  PHP frameworks at <a href="http://codecondo.com/minimal-web-frameworks-for-php/">Codecondo</a>. Maximum marks will be achieved by demonstrating a robust implementation with high quality documentation.
+               </li>
+            </ul>
+         </li>
+      </ul>
+      <p>Deliverable: A working &amp; demonstrated widget documented in the appropriate section of the individual 
+         metadata file. (24 marks)
+      </p>
+      <p><strong>2. Implementation &amp; Presentation (6 marks)</strong></p>
+      <p>Marks allocated at assessment walkthrough based on the overall quality of the application &amp; the individual 
+         metadata file.
+      </p>
+      <h4>Group working</h4>
+      <p>You will work in groups of three to four students and each group member will be responsible for at least one of the components. However, all group members are expected to have an understanding of the whole application and all members will be involved in the design of the configuration file at the heart of the application.</p>
+      <p><strong>Groups are required to be formed and notified to your tutor by the 3rd of December. Groups will be formed by students within a workshop group.</strong></p>
+      <h4>Design, Implementation &amp; Submission</h4>
+      <p>You should deploy your application on the UWE/CEMS web space of <strong>one member</strong> of your group. All source code should be well-formatted &amp; commented and must contain attribution where external code has been used (you should show the start and end of someone else's work and provide the link to where is was obtained). Groups will lose marks if unattributed third party code is submitted.</p>
+      <p>All students will prepare and submit two schema valid XML files documenting the work and application. </p>
+      <p>The Schema (XSD) files for the group and individual components will be published at the beginning of Semester 2. Two schema valid example files (one for the group and another for the individual component) will also be made available.</p>
+      <h4>Tutor support</h4>
+      <p>This coursework is seen as providing a learning experience in the tools &amp; technologies used on this module. Support will be provided in workshop time as well as in the <a href="http://www.cems.uwe.ac.uk/ep/">EspressoProgramming</a> sessions.  </p>
+      <p>Tutor help can be requested for any aspect of the coursework such as the overall design, PHP coding problems or XML structuring.  Please ask for assistance after a bit of a struggle with the problem rather than get stuck.</p>
+      <p>Specific questions will be answered in the <a href="http://dsa-module.blogspot.co.uk/">DSA Module Blog</a> and pointed to via Blackboard. The blog will also be used to provide more detailed guidance in constructing this application.</p>
+      <hr />
+      <h4>Assessment Criteria and Marks Allocation</h4>
+      <h5>Group Component (70%)</h5>
+      <ul>
+         <li>
+            Group Walkthrough (10%)
+            <ul>
+               <li>Quality of the demonstrated application;</li>
+               <li>Depth of understanding shown by the group;</li>
+               <li>Group shows a good group dynamic.</li>
+            </ul>
+         </li>
+         <br/>
+         <li>
+            Application (60%)
+            <ul>
+               <li>Well designed ER models and implemented MySQL DB;</li>
+               <li>Main Mapping/Weather page is complete and has the required functions &amp; is well implemented (e.g. valid HTML5);</li>
+               <li>A valid RSS produced;</li>
+               <li>Group meta-data file is schema valid;</li>
+               <li>Overall quality of source code;</li>
+               <li>Completeness of data model (no replication, valid data fields and types);</li>
+               <li>Design &amp; use of a configuration file and parameters;</li>
+               <li>Additional functionality beyond the basic requirements;</li>
+               <li>Valid and well presented documentation.</li>
+            </ul>
+         </li>
+      </ul>
+      <h5>Individual Component (30%)</h5>
+      <ul>
+         <li>
+            Individual Walkthrough (6%)
+            <ul>
+               <li>Quality of the individual widget;</li>
+               <li>Depth of understanding of the work done for the component.</li>
+            </ul>
+         </li>
+         <br />
+         <li>
+            Individual Widget (24%)
+            <ul>
+               <li>Functional widget using external data via API (i.e. not a static view);</li>
+               <li>Availability and quality of comments and learning shown;</li>
+               <li>Availability and quality of source code;</li>
+            </ul>
+         </li>
+      </ul>
+      <hr />
+      <h4>Resources</h4>
+      <p>List of twin towns on Wikipedia: <a href="https://en.wikipedia.org/wiki/List_of_twin_towns_and_sister_cities_in_the_United_Kingdom">https://en.wikipedia.org/wiki/List<em>of</em>twin<em>townsandsister</em>cities<em>in</em>the<em>United</em>Kingdom</a></p>
+      <p>Google Maps API: <a href="https://developers.google.com/maps/?hl=en">https://developers.google.com/maps/?hl=en</a></p>
+      <p>Bing Maps API: <a href="http://www.microsoft.com/maps/choose-your-bing-maps-API.aspx">http://www.microsoft.com/maps/choose-your-bing-maps-API.aspx</a></p>
+      <p>Open Street Map API: <a href="http://wiki.openstreetmap.org/wiki/API_v0.6">http://wiki.openstreetmap.org/wiki/API_v0.6</a></p>
+      <p>World Weather Stations Locator Map: <a href="http://wws-map.com/">http://wws-map.com/</a></p>
+      <p>Weather Location Codes: <a href="https://weather.codes/">https://weather.codes/</a></p>
+      <h4>References</h4>
+      <p>[1] Clarke, N. &quot;Town Twinning in Britain since 1945: A Summary of findings&quot;, School of Geography, University of Southampton, 2011.</p>
+      <p>[2] <a href="https://en.wikipedia.org/wiki/List_of_twin_towns_and_sister_cities_in_the_United_Kingdom">List of twin towns and sister cities in the United Kingdom</a>, Wikipedia.</p>
+   </body>
+</html>

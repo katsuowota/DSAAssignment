@@ -1,0 +1,78 @@
+/* remove underline for all (tag: a) parts*/
+a {
+	text-decoration: none;
+	}
+	/* set font to body part*/
+body  {
+	font-family: "Verdana", Geneva, sans-serif;
+}
+/* change border, margin, width and max possible width of container */
+#container{
+	border: 1px solid #bbb;
+	margin: 30px auto;
+	width: 700px;
+	max-width: 95%;
+}
+/* adjust padding, bottom border and text allign of header (area that displays city name and weather forecast) */
+.entry-header{
+	padding: 30px;
+	border-bottom: 1px solid #bbb;
+	text-align: center;
+}
+/* space after the entry-header*/
+.entry-header:after{
+	content:".";display:block;height:0;clear:both;visibility:hidden;
+}
+/* no margin at the bottom of the header1: Title "DSA Assignment site" */
+.entry-header h1{
+	margin-bottom: 0;
+}
+/* no margin at the bottom of the header box div */
+.entry-header .box{
+	margin-bottom: 0;
+}
+
+/* Space between the map and the list of locations */
+.map-list{
+	padding: 30px;
+}
+/* line between the map and the list */
+.google-map-list{
+	list-style: none;
+	margin: 0;
+	border-top: 1px solid #bbb;
+}
+
+/* space between icon and name of the location */
+.google-map-list li:before{
+	content: "\f230";
+	font-family: "dashicons";
+	vertical-align: top;
+	margin-right: 5px;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* padding for each location on the list */
+.google-map-list li{
+	border-bottom: 1px solid #bbb;
+	padding: 5px 0;
+}
+
+
+/* Name of the location on the list. Colour and font weight. */
+.google-map-list li a{
+	color: #f7584c;
+	font-weight: 800;
+}
+
+/* Mouse hover over name of the location (that is also hyperlink) */
+.google-map-list li a:hover,
+.google-map-list li a:focus{
+	color: #5c1410;
+}
+
+/* colour of the descirption of each location on the list */
+.google-map-list li span{
+	display: block;
+	color: #444;
+}

@@ -1,0 +1,20 @@
+/* CSS stylesheet for Index page */
+
+
+/* style for 'body' part/
+/defining font, font size, font colour, background image and position of the image */
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 17px;
+	color:black;
+    background-image: url(images/MainBG.png) ; 
+    background-attachment: fixed;
+}
+/*
+footer	{
+			    position:fixed;
+				height:50px;
+				bottom:0px;
+				font-size: 18;
+		}
+*/
